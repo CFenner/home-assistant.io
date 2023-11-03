@@ -13,6 +13,7 @@ ha_platforms:
   - climate
   - diagnostics
   - sensor
+  - switch
   - water_heater
 ha_dhcp: true
 ha_integration_type: integration
@@ -27,6 +28,7 @@ There is currently support for the following device types within Home Assistant:
 - [Water Heater](#water-heater) (Domestic Hot Water)
 - [Sensor](#sensor) (Sensor)
 - [Button](#button) (Button)
+- [Switch](#switch) (Switch)
 
 {% include integrations/config_flow.md %}
 
@@ -136,3 +138,7 @@ Additional data from ViCare is available as separate sensors. The sensors are au
 ## Button
 
 Button entities are available for triggering like a one-time charge of the water heater.
+
+## Switch
+
+Switch entities are available for toggeling like a one-time charge of the water heater.
